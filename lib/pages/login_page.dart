@@ -88,8 +88,8 @@ class _LoginPageState extends State<LoginPage> {
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return 'Password must be entered';
-                        } else if (value.length < 8) {
-                          return "Password lenght moust be greater than 5";
+                        } else if (value.length < 6) {
+                          return "Password lenght moust be greater than 6";
                         }
                         return null;
                       },
