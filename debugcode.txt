@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utils/routes.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+  const LoginPage({super.key});
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -14,8 +14,8 @@ class _LoginPageState extends State<LoginPage> {
 
   final _formKey = GlobalKey<FormState>();
 
-  moveToHome(BuildContext context) async {
-    if (_formKey.currentState!.validate()) {
+  moveToHome(BuildContext) async {
+                    if (_formKey.currentState!.validate()) {
       setState(() {
         changeButton = true;
       });
@@ -35,13 +35,16 @@ class _LoginPageState extends State<LoginPage> {
     return Material(
       color: Colors.white,
       child: SingleChildScrollView(
+        key: _formKey,
         child: Form(
-          key: _formKey,
           child: Column(
             children: [
               Image.asset(
                 "assets/image/love.png",
+                // "assets/image/login.png",
+                // "assets/image/hey.png",
                 fit: BoxFit.cover,
+                // height: 400,
               ),
               SizedBox(
                 height: 20.0,
@@ -58,9 +61,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 16.0,
-                  horizontal: 32.0,
-                ),
+                    vertical: 16.0, horizontal: 32.0),
                 child: Column(
                   children: [
                     TextFormField(
@@ -79,6 +80,10 @@ class _LoginPageState extends State<LoginPage> {
                         setState(() {});
                       },
                     ),
+
+                    // SizedBox(
+                    //   height: 4,
+                    // ),
                     TextFormField(
                       obscureText: true,
                       decoration: InputDecoration(
@@ -87,12 +92,14 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
-                          return 'Password must be entered';
-                        } else if (value.length < 8) {
-                          return "Password lenght moust be greater than 5";
+                          return 'password must be enter';
                         }
                         return null;
                       },
+                      // onChanged: (value) {
+                      //   name = value;
+                      //   setState(() {});
+                      // },
                     ),
                     SizedBox(
                       height: 40.0,
@@ -102,11 +109,15 @@ class _LoginPageState extends State<LoginPage> {
                       borderRadius:
                           BorderRadius.circular(changeButton ? 50 : 8),
                       child: InkWell(
-                        onTap: () => moveToHome(context),
+                        // splashColor: Colors.red,
+                        onTap: () => moveToHome(BuildContext),
                         child: AnimatedContainer(
-                          duration: Duration(seconds: 1),
+                          duration: Duration(
+                            seconds: 1,
+                          ),
                           width: changeButton ? 50 : 150,
                           height: 50,
+                          // color: Colors.deepPurple,
                           alignment: Alignment.center,
                           child: changeButton
                               ? Icon(
