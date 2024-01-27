@@ -145,3 +145,25 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
+
+
+------------------------------------------
+ThemeData(
+        primarySwatch: Colors.red,
+        // fontFamily: GoogleFonts.aBeeZee,
+        fontFamily: GoogleFonts.lato().fontFamily,
+        appBarTheme: AppBarTheme(
+            color: Colors.white,
+            elevation: 0.0,
+            iconTheme: IconThemeData(color: Colors.black),
+            // textTheme: Theme.of(context).textTheme,
+            titleTextStyle: TextStyle(
+              color: Colors.black,
+              fontSize: 18,
+              // fontStyle: FontStyle.italic,
+              fontWeight: FontWeight.bold,
+            )
+            // backgroundColor: Colors.black,
+            ),
+        // primaryTextTheme: GoogleFonts.latoTextTheme(),
+      ),
