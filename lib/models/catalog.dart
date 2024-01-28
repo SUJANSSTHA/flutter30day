@@ -11,11 +11,38 @@ class Item {
 
 final products = [
   Item(
-    
-  id: "sujan",
-  name: "iPhone 12 Pro",
-  desc: "Apple iphone 12th generation",
-  color: "#33505a",
-  image: "https://unsplash.com/photos/silver-iphone-6-with-blue-case-OjMyiwfviQ4",
-  
-)];
+      id: "sujan",
+      name: "iPhone 12 Pro",
+      desc: "Apple iphone 12th generation",
+      color: "#33505a",
+      image:
+          "https://unsplash.com/photos/silver-iphone-6-with-blue-case-OjMyiwfviQ4"),
+  Item(
+      id: "sujan",
+      name: "iPhone 12 Pro",
+      desc: "Apple iphone 12th generation",
+      color: "#33505a",
+      image:
+          "https://unsplash.com/photos/silver-iphone-6-with-blue-case-OjMyiwfviQ4"),
+  Item(
+      id: "sujan",
+      name: "iPhone 12 Pro",
+      desc: "Apple iphone 12th generation",
+      color: "#33505a",
+      image:
+          "https://unsplash.com/photos/silver-iphone-6-with-blue-case-OjMyiwfviQ4"),
+  Item(
+      id: "sujan",
+      name: "iPhone 12 Pro",
+      desc: "Apple iphone 12th generation",
+      color: "#33505a",
+      image:
+          "https://unsplash.com/photos/silver-iphone-6-with-blue-case-OjMyiwfviQ4"),
+  Item(
+      id: "sujan",
+      name: "iPhone 12 Pro",
+      desc: "Apple iphone 12th generation",
+      color: "#33505a",
+      image:
+          "https://unsplash.com/photos/silver-iphone-6-with-blue-case-OjMyiwfviQ4"),
+];
