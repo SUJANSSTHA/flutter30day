@@ -1,85 +1,44 @@
 {
-    "products": [
+  "products": [
       {
-        "id": 1,
-        "name": "Oppo Reno5 F Price In Nepal - MobileMall",
-        "desc": "Apple iPhone 22nd generation",
-        "price": 200,
-        "color": "#33505a",
-        "image": "https://mobilemall.pk/public_html/images/product/product_1616394936Oppo-Reno5-F-.jpg"
+          "id": 1,
+          "name": "iPhone 12 Pro",
+          "desc": "Apple iPhone 12th generation",
+          "price": 999,
+          "color": "#33505a",
+          "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021661000"
       },
       {
-        "id": 2,
-        "name": "Samsung Galaxy S21",
-        "desc": "Samsung Galaxy S21 description",
-        "price": 800,
-        "color": "#FF5733",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhMtIhnUGjqECkYbJh83bbHbFZt96x7nvWsg"
+          "id": 2,
+          "name": "Airpods Pro",
+          "desc": "Apple Aipods Pro 1st generation",
+          "price": 200,
+          "color": "#e3e4e9",
+          "image": "https://crdms.images.consumerreports.org/c_lfill,w_598/prod/products/cr/models/400116-wireless-portable-headphones-apple-airpods-pro-10009323.png"
       },
       {
-        "id": 3,
-        "name": "Google Pixel 6",
-        "desc": "Google Pixel 6 description",
-        "price": 700,
-        "color": "#4285F4",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6.jpg"
+          "id": 3,
+          "name": "iPad Pro",
+          "desc": "Apple iPad Pro 2020 edition",
+          "price": 799,
+          "color": "#f73984",
+          "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-wifi-silver-202003_FMT_WHH?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1583551131102"
       },
       {
-        "id": 4,
-        "name": "OnePlus 9 Pro",
-        "desc": "OnePlus 9 Pro description",
-        "price": 850,
-        "color": "#FF4500",
-        "image": "https://mobilemall.pk/public_html/images/product/product_1616394936Oppo-Reno5-F-.jpg"
+          "id": 4,
+          "name": "Galaxy S21 Ultra",
+          "desc": "Samsung Galaxy S21 Ultra 2021 edition",
+          "price": 1299,
+          "color": "#1c1c1c",
+          "image": "https://lh3.googleusercontent.com/qRQPjHrhRVIs-xnfNSyiPXOH2vH97ylMacgbTKebqJtRfNH3LlYo8pN-5igsLDWUH62tGl5zNpTsl5xd8SprzGmXoCEmWFOi2-2cQVGS-r3PaRXHt62DmJHq-jrYX0UQvWZ9BA=s800-c"
       },
       {
-        "id": 5,
-        "name": "Xiaomi Redmi Note 10",
-        "desc": "Xiaomi Redmi Note 10 description",
-        "price": 300,
-        "color": "#FFC0CB",
-        "image": "https://mobilemall.pk/public_html/images/product/product_1616394936Oppo-Reno5-F-.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Apple MacBook Air",
-        "desc": "Apple MacBook Air description",
-        "price": 1200,
-        "color": "#A52A2A",
-        "image": "https://mobilemall.pk/public_html/images/product/product_1616394936Oppo-Reno5-F-.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Sony PlayStation 5",
-        "desc": "Sony PlayStation 5 description",
-        "price": 500,
-        "color": "#001489",
-        "image": "https://mobilemall.pk/public_html/images/product/product_1616394936Oppo-Reno5-F-.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Dell XPS 13",
-        "desc": "Dell XPS 13 description",
-        "price": 1100,
-        "color": "#007BFF",
-        "image": "https://mobilemall.pk/public_html/images/product/product_1616394936Oppo-Reno5-F-.jpg"
-      },
-      {
-        "id": 9,
-        "name": "Fitbit Charge 4",
-        "desc": "Fitbit Charge 4 description",
-        "price": 150,
-        "color": "#00FF00",
-        "image": "https://mobilemall.pk/public_html/images/product/product_1616394936Oppo-Reno5-F-.jpg"
-      },
-      {
-        "id": 10,
-        "name": "Canon EOS R5",
-        "desc": "Canon EOS R5 description",
-        "price": 2500,
-        "color": "#808080",
-        "image": "https://mobilemall.pk/public_html/images/product/product_1616394936Oppo-Reno5-F-.jpg"
+          "id": 5,
+          "name": "Galaxy S21",
+          "desc": "Samsung Galaxy S21 2021 edition",
+          "price": 899,
+          "color": "#7c95eb",
+          "image": "https://images.samsung.com/is/image/samsung/p6pim/za/galaxy-s21/gallery/za-clear-cover-galaxy-s21-5g-ef-qg991ttegww-363168624?$720_576_PNG$"
       }
-    ]
-  }
-  
+  ]
+}
