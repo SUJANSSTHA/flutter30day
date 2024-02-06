@@ -5,7 +5,7 @@ class MyTheme {
   static ThemeData lightTheme(BuildContext context) => ThemeData(
         primarySwatch: Colors.red,
         // fontFamily: GoogleFonts.aBeeZee,
-        fontFamily: GoogleFonts.lato().fontFamily,
+        fontFamily: GoogleFonts.poppins().fontFamily,
         appBarTheme: AppBarTheme(
             color: Colors.white,
             elevation: 0.0,
@@ -20,9 +20,12 @@ class MyTheme {
             ),
         // primaryTextTheme: GoogleFonts.latoTextTheme(),
       );
-       static ThemeData darkTheme(BuildContext context) => ThemeData(
+  static ThemeData darkTheme(BuildContext context) => ThemeData(
         brightness: Brightness.dark,
-            
+
         // primaryTextTheme: GoogleFonts.latoTextTheme(),
       );
+  // Colors
+  static Color creamColor = Color(0xfff5f5f5f);
+  static Color darkBluishColor = Color(0xff403b58);
 }
