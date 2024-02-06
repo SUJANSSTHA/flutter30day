@@ -26,6 +26,6 @@ class MyTheme {
         // primaryTextTheme: GoogleFonts.latoTextTheme(),
       );
   // Colors
-  static Color creamColor = Color(0xfff5f5f5f);
+  static Color creamColor = Color.fromARGB(255, 237, 234, 234);
   static Color darkBluishColor = Color(0xff403b58);
 }
