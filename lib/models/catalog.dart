@@ -3,14 +3,14 @@ import 'dart:convert';
 class CatalogModel {
   static List<Item> items = [];
 
-  Item getById(int id) {
+  static Item getById(int id) {
     return items.firstWhere(
       (element) => element.id == id,
       orElse: () => throw Exception('Item with id $id not found'),
     );
   }
 
-  Item getByPosition(int pos) => items[pos];
+  static Item getByPosition(int pos) => items[pos];
 }
 
 class Item {
