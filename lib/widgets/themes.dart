@@ -32,12 +32,13 @@ class MyTheme {
         //*card color
         cardColor: Colors.black,
         canvasColor: darkcreamColor,
+        hintColor: creamColor,
         appBarTheme: AppBarTheme(
           color: Colors.black,
           elevation: 0.0,
-          iconTheme: IconThemeData(color: Colors.white),
+          iconTheme: IconThemeData(color: Colors.black),
           titleTextStyle: TextStyle(
-            color: Colors.white,
+            color: Colors.black,
             fontSize: 18,
             fontWeight: FontWeight.bold,
           ),
