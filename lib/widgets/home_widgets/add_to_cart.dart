@@ -6,25 +6,19 @@ import '../../models/cart.dart';
 import '../../models/catalog.dart';
 import '../themes.dart';
 
-class AddToCart extends StatefulWidget {
+class AddToCart extends StatelessWidget {
   final Item catalog;
 
-  const AddToCart({
+  AddToCart({
     super.key,
     required this.catalog,
   });
 
   @override
-  State<AddToCart> createState() => _AddToCartState();
-}
-
-// bool isInCart = false;
-
-class _AddToCartState extends State<AddToCart> {
   final _cart = CartModel();
   @override
   Widget build(BuildContext context) {
-    bool isInCart = _cart.items.contains(widget.catalog) ?? false;
+    bool isInCart = _cart.items.contains(catalog) ?? false;
     return ElevatedButton(
       onPressed: () {
         //* card betro xa bana matra show huna and no repeated
@@ -33,8 +27,8 @@ class _AddToCartState extends State<AddToCart> {
           final _catalog = CatalogModel();
 
           _cart.catalog = _catalog;
-          _cart.add(widget.catalog);
-          setState(() {});
+          _cart.add(catalog);
+          // setState(() {});
         }
       },
       style: ButtonStyle(
