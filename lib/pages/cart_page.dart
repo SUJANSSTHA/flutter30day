@@ -32,7 +32,7 @@ class _CardTotal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // final _cart = (VxState.store as Mystore).cart;
-    print("Rebild happ");
+    print("Rebild happe");
     return SizedBox(
       height: 200,
       child: Row(
